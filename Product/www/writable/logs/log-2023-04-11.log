@@ -1,0 +1,528 @@
+CRITICAL - 2023-04-11 05:04:08 --> Undefined constant "this"
+in APPPATH\Views\testing.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 4 APPPATH\Controllers\testing.php(9): view('testing')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:04:19 --> Undefined constant "this"
+in APPPATH\Views\testing.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 4 APPPATH\Controllers\testing.php(9): view('testing')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:48 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:49 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:49 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:49 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:49 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:05:49 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:07:16 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:09:18 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:09:59 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:09:59 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:09:59 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:00 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:00 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:00 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:00 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:34 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:35 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:35 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:35 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(6): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:10:50 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(23): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:22:44 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(23): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:22:44 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(23): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 05:22:44 --> Invalid file: "sidebar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sidebar.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('sidebar', null, true)
+ 3 APPPATH\Views\testing.php(23): CodeIgniter\View\View->include('sidebar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing', [], true)
+ 7 APPPATH\Controllers\testing.php(9): view('testing')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\testing->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\testing))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:51:23 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:54:32 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:36 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:37 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:37 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:37 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:39 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:39 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:40 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:57:55 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:58:48 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:58:49 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:58:49 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 07:58:49 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 08:01:30 --> require_once(C:\IA\ia-samuel\www\app\libraries/vender/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Login.php on line 12.
+ 1 APPPATH\Controllers\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\IA\\ia-samuel\\www\\app\\libraries/vender/autoload.php): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Login.php', 12)
+ 2 APPPATH\Controllers\Login.php(12): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Login->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 09:13:04 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Config\Filters.php on line 66.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Config\\Filters.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Filters')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Filters')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(285): config('Filters')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters(null, false)
+ 9 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('filters', [...])
+10 SYSTEMPATH\Config\Services.php(282): CodeIgniter\Config\BaseService::getSharedInstance('filters', null)
+11 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::filters()
+12 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Config\BaseService::__callStatic('filters', [])
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:00:45 --> Unclosed '{' on line 8
+in APPPATH\Controllers\Login.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:28 --> Call to a member function createAuthUrl() on null
+in APPPATH\Controllers\Login.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:47 --> Call to a member function createAuthUrl() on null
+in APPPATH\Controllers\Login.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:48 --> Call to a member function createAuthUrl() on null
+in APPPATH\Controllers\Login.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:49 --> Call to a member function createAuthUrl() on null
+in APPPATH\Controllers\Login.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:49 --> Call to a member function createAuthUrl() on null
+in APPPATH\Controllers\Login.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:01:57 --> Undefined variable $data
+in APPPATH\Controllers\Login.php on line 24.
+ 1 APPPATH\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Login.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-11 10:02:02 --> Undefined variable $googleButton
+in APPPATH\Views\Login\index.php on line 101.
+ 1 APPPATH\Views\Login\index.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $googleButton', 'APPPATH\\Views\\Login\\index.php', 101)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(24): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-04-11 16:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-04-11 17:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
