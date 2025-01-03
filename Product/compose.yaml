@@ -1,0 +1,71 @@
+# ./docker-compose.yml
+#version: "3.7"
+
+x-defaults:
+  network: &network
+    networks:
+      - net
+
+services:
+  php:
+    image: jerometam/csia
+    container_name: webserver
+    hostname: webserver
+    restart: always
+    depends_on:
+      - "db"
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html/
+#      - ./settings/webserver:/etc/apache2/
+#    configs:
+#      - source: apache-vhosts
+#        target: /etc/apache2/sites-available/000-default.conf
+#      - source: php-ini
+#        target: /usr/local/etc/php/conf.d/local.ini
+    <<: *network
+
+  db:
+    platform: linux/amd64
+    image: mariadb
+    container_name: database
+    hostname: database
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=ibdp_cs_ia
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./config/database:/etc/mysql/conf.d
+#    volumes:
+#       - ./localhost.sql:/docker-entrypoint-initdb.d/localhost.sql
+#       - ./privileges.sql:/docker-entrypoint-initdb.d/privileges.sql
+    <<: *network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: phpmyadmin
+    hostname: phpmyadmin
+    restart: always
+    depends_on:
+      - "db"
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=database
+      - PMA_USER=root
+      - PMA_PASSWORD=admin
+    ports:
+    - "8888:80"
+    volumes:
+      - /sessions    
+    <<: *network
+
+networks:
+  net:
+
+volumes:
+  data:
+    external: true
